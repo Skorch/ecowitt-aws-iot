@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-east-2:853166164242:iot_sensors_alerts:f33db3ff-cacb-4e76-b338-ca2e622ca1d4",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "d1c76ea0-df6e-538c-862a-364cf753aa9f",
+                "TopicArn": "arn:aws:sns:us-east-2:853166164242:iot_sensors_alerts",
+                "Subject": "ALARM: \"Moisture Sensor Alerting\" in US East (Ohio)",
+                "Message": "{\"AlarmName\":\"Moisture Sensor Alerting\",\"AlarmDescription\":null,\"AWSAccountId\":\"853166164242\",\"NewStateValue\":\"ALARM\",\"NewStateReason\":\"Threshold Crossed: 1 out of the last 1 datapoints [25.0 (10/04/21 22:11:00)] was less than the threshold (30.0) (minimum 1 datapoint for OK -> ALARM transition).\",\"StateChangeTime\":\"2021-04-10T22:26:05.500+0000\",\"Region\":\"US East (Ohio)\",\"AlarmArn\":\"arn:aws:cloudwatch:us-east-2:853166164242:alarm:Moisture Sensor Alerting\",\"OldStateValue\":\"OK\",\"Trigger\":{\"MetricName\":\"SensorRuleMoisture\",\"Namespace\":\"SensorRules\",\"StatisticType\":\"Statistic\",\"Statistic\":\"AVERAGE\",\"Unit\":null,\"Dimensions\":[],\"Period\":900,\"EvaluationPeriods\":1,\"ComparisonOperator\":\"LessThanThreshold\",\"Threshold\":30.0,\"TreatMissingData\":\"- TreatMissingData:                    missing\",\"EvaluateLowSampleCountPercentile\":\"\"}}",
+                "Timestamp": "2021-04-10T22:26:05.555Z",
+                "SignatureVersion": "1",
+                "Signature": "NoCqcEaKtjop/duiTt6Y0SBHzjCd4J97XNU1IkTNKLfzTYOR2o2KU7DM4/I4od1HhgoAhSyw4rksHgLkJfF5xZBEDcmLGR9VCGMoqZDhZvRcrJEbvnZ4Zm4nak4WYIRio6gk9OvGUTAaj3m7Sfsm6gvTjP67EJc70mLfuwutJQS4GUhLx5dpxK18Jge0+16egwmU+GvKvAS22LKKg7PnMUojqj3i56Lmwm8HVdtwj7O2ZAWH9EbS+ZE4js9HZs54+gA8As+HrVGMTwY0BdRcIKc84HLXmIsYt7Uo/B/XD/hyiamFRy75Ua/NMTTQj6UheYNyzi+RoIPXF9eCevUQUA==",
+                "SigningCertUrl": "https://sns.us-east-2.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+                "UnsubscribeUrl": "https://sns.us-east-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-2:853166164242:iot_sensors_alerts:f33db3ff-cacb-4e76-b338-ca2e622ca1d4",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}
